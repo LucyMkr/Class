@@ -1,14 +1,21 @@
 import java.util.Scanner;
-class City {
+
+class City1 {
+
     String name = "Not defined";
     int population;
     int age;
     String location;
+
+
+    City1() {
+    }
 }
-public class Main {
+
+class Main {
 
     public static void main(String[] args) {
-        City First = new City();
+        City1 First = new City1();
         First.population = 20591;
         First.age = 1273;
         First.location = "the North-Eastern part of Syunik province";
@@ -21,5 +28,8 @@ public class Main {
         } else {
             System.out.println(First.name + " " + First.population + " " + First.age + " " + First.name + " " + First.location + " ");
         }
+
     }
 }
+
+
